@@ -9,6 +9,6 @@ class Task
   end
   
   def info
-    print "[No.#{@id}] #{self.title}:#{self.content}"
+    print "[No.#{@id}] #{@title}:#{@content}"
   end
 end
